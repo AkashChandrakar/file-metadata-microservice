@@ -1,5 +1,5 @@
 {
-  "name": "file-metadat API",
+  "name": "file-metadata-API",
   "version": "0.0.0",
   "description": "API to get the file size of an uploaded file",
   "main": "server.js",
