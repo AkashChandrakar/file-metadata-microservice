@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en" ng-app>
+  <head>
+    <title>File-metadata MicroService</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+    <style>
+      body {
+        padding-top: 60px;
+      }
+      table{
+        position: absolute;
+        left:20%;
+        top:20%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class='container'>
+    <h3>User Story: </h3>
+    <ol>
+      <li>
+        I can submit a FormData object that includes a file upload.
+      </li>
+      <li>
+        When I submit something, I will receive the file size in bytes within the JSON response
+      </li>
+    </ol>
+  <table>
+    <tr>
+      <td>
+        <form action="/" method="post" enctype='multipart/form-data'>
+        <input type="file" name="avatar" />
+        <input type="submit" value="Submit"/>
+        </form>
+      </td>
+    </tr>
+  </table>
+  </div>
+  
+  </body>
+</html>
